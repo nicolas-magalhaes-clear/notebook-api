@@ -5,7 +5,7 @@ ruby "3.1.3"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.1"
 gem "pry-rails"
-
+#gem "rack-cors"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 gem 'rails-i18n'
@@ -36,7 +36,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
-# gem "rack-cors"
+gem "rack-cors"
 
 gem 'faker'
 
