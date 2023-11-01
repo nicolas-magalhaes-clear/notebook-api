@@ -15,6 +15,7 @@ gem "puma", ">= 5.0"
 gem 'ruby-lsp', '~> 0.12.1'
 gem 'jwt'
 gem 'versionist'
+gem 'kaminari'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
